@@ -3,11 +3,8 @@
 
 
     DATA: lv_cross_ref TYPE z_num2.
-          "lv_indirect_dependency_check TYPE zindirect_dependency_check,
-          "lv_indirect_dependency type ZKRK_DEPENDENCY_DT.
-
     DATA disc TYPE i.
-    IF ( warranty >= 11 ).
+    IF ( warranty >= 7 ).
       disc = ( price * 70 ) / 100.
     ELSE.
       disc = ( price * 10 ) / 100.
