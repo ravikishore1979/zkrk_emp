@@ -1,8 +1,8 @@
     METHOD getdiscountedprice.
-    "WorkBench Demo Change Tes
+    "WorkBench Demo Change Tes in S4 2022
 
 
-    DATA: lv_cross_ref TYPE z_num2.
+"    DATA: lv_cross_ref TYPE z_num2.
     DATA disc TYPE i.
     IF ( warranty >= 7 ).
       disc = ( price * 70 ) / 100.
