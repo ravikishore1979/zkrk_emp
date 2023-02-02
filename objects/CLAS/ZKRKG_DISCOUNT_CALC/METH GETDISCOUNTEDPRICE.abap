@@ -1,5 +1,5 @@
     METHOD getdiscountedprice.
-    "WorkBench Demo Change Tes in S4 2022, activate commit test
+    "WorkBench Demo Change Tes in S4 2022, activation commit test 2
 
 
 "    DATA: lv_cross_ref TYPE z_num2.
