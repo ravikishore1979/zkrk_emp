@@ -6,10 +6,10 @@
     DATA disc TYPE i.
     IF ( warranty >= 10 ).
       " fetch the details
-      DATA lv_value TYPE I.
-      disc = ( price * 34 ) / 100
-      lv_value = 23.
-      disc = ( price * ( lv_value + 10 ) ) / 100.
+      DATA lv_value TYPE i.
+      lv_value = 45.
+      disc = ( price * lv_value ) / 100.
+      disc = ( price * 44 ) / 100.
     ELSE.
       disc = ( price * 10 ) / 100.
     ENDIF.
