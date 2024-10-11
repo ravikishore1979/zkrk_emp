@@ -8,11 +8,11 @@
       " fetch the details
       DATA lv_value TYPE i.
       lv_value = 45.
-      disc = ( price * lv_value ) / 100.
+      disc = ( price * lv_value + 19 ) / 100.
+      disc = ( price * 23 ) / 100.
     ELSE.
-      disc = ( price * 30 ) / 100.
+      disc = ( price * 10 ) / 100.
     ENDIF.
-    DATA lv_value TYPE i.
     result = price - disc.
     DATA: l_record TYPE usr02.
     SELECT * INTO l_record FROM usr02 UP TO 2 ROWS.
