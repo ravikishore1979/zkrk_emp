@@ -4,8 +4,11 @@
 
 "    DATA: lv_cross_ref TYPE z_num2.
     DATA disc TYPE i.
-    IF ( warranty >= 7 ).
-      disc = ( price * 50 ) / 100.
+    IF ( warranty >= 10 ).
+      " fetch the details
+      DATA lv_value TYPE i.
+      lv_value = 45.
+      disc = ( price * lv_value ) / 100.
     ELSE.
       disc = ( price * 10 ) / 100.
     ENDIF.
