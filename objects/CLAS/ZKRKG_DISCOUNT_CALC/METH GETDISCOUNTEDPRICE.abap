@@ -5,7 +5,8 @@
 "    DATA: lv_cross_ref TYPE z_num2.
     DATA disc TYPE i.
     IF ( warranty >= 7 ).
-      disc = ( price * 33 ) / 100.
+      disc = ( price * 23 ) / 100.
+      disc = ( price * 93 ) / 100.
     ELSE.
       disc = ( price * 10 ) / 100.
     ENDIF.
