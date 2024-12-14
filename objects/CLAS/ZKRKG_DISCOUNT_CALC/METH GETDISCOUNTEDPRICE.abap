@@ -1,14 +1,15 @@
     METHOD getdiscountedprice.
-    "WorkBench Demo Change Tes
+    "WorkBench Demo Change Tes in S4 2022, activation commit test BADI disabled test
+    "task commit test
 
-
-    DATA: lv_cross_ref TYPE z_num2.
-          "lv_indirect_dependency_check TYPE zindirect_dependency_check,
-          "lv_indirect_dependency type ZKRK_DEPENDENCY_DT.
-
+"    DATA: lv_cross_ref TYPE z_num2.
     DATA disc TYPE i.
-    IF ( warranty >= 11 ).
-      disc = ( price * 70 ) / 100.
+    IF ( warranty >= 10 ).
+      " fetch the details
+      DATA lv_value TYPE I.
+      disc = ( price * 34 ) / 100.
+      lv_value = 23.
+      disc = ( price * ( lv_value + 10 ) ) / 100.
     ELSE.
       disc = ( price * 10 ) / 100.
     ENDIF.
