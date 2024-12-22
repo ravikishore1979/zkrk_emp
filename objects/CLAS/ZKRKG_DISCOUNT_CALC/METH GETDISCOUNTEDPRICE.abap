@@ -5,10 +5,10 @@
 "    DATA: lv_cross_ref TYPE z_num2.
     DATA disc TYPE i.
     IF ( warranty >= 10 ).
-      " fetch the details
+       " fetch the details test 242
       DATA lv_value TYPE I.
       disc = ( price * 34 ) / 100.
-      lv_value = 23.
+      lv_value = 21.
       disc = ( price * ( lv_value + 10 ) ) / 100.
     ELSE.
       disc = ( price * 10 ) / 100.
