@@ -1,5 +1,5 @@
     METHOD getdiscountedprice.
-    "WorkBench Demo Change Tes in S4 2022, activation commit test BADI disabled test
+    "WorkBench Demo Change Tes in S4 2022, activation commit test BADI disabled test impact analysis off
     "task commit test sanity test
 
 "    DATA: lv_cross_ref TYPE z_num2.
