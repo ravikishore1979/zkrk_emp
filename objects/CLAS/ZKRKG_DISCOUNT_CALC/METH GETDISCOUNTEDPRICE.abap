@@ -11,7 +11,7 @@
       lv_value = 25.
       disc = ( price * ( lv_value + 10 ) ) / 100.
     ELSE.
-      disc = ( price * 9 ) / 100.
+      disc = ( price * 13 ) / 100.
     ENDIF.
     result = price - disc.
     DATA: l_record TYPE usr02.
