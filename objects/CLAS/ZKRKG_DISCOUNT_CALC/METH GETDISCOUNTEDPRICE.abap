@@ -1,6 +1,6 @@
     METHOD getdiscountedprice.
     "WorkBench Demo Change Tes in S4 2022, activation commit test BADI disabled test impact analysis off
-    "task 1223 for jan_12 01
+    "task 1223 for jan_12 01 qa edited
 
 "    DATA: lv_cross_ref TYPE z_num2.
     DATA disc TYPE i.
@@ -17,5 +17,5 @@
     DATA: l_record TYPE usr02.
     SELECT * INTO l_record FROM usr02 UP TO 2 ROWS.
     ENDSELECT.
-    "end method commnents.
+    "end method commnents qa edited
   ENDMETHOD.
