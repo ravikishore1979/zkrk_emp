@@ -1,4 +1,4 @@
   METHOD GETDISCOUNTEDPRICE.
-    "start method.
+    "start method. Jan 12 01
     DATA disc TYPE i.
   ENDMETHOD.
