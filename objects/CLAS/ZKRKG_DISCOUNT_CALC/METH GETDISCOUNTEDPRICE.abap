@@ -17,5 +17,5 @@
     DATA: l_record TYPE usr02.
     SELECT * INTO l_record FROM usr02 UP TO 2 ROWS.
     ENDSELECT.
-    "end method commnents qa edited
+    "end method commnents qa edited Jan 12 03
   ENDMETHOD.
