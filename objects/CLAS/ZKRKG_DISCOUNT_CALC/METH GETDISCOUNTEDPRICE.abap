@@ -1,6 +1,6 @@
     METHOD getdiscountedprice.
     "WorkBench Demo Change Tes in S4 2022, activation commit test BADI disabled test impact analysis off
-    "task 1223 for sanity check 1 resolved using  qa changes in dev
+    "fix for error fix
 
 "    DATA: lv_cross_ref TYPE z_num2.
     DATA disc TYPE i.
@@ -11,7 +11,7 @@
       lv_value = 23.
       disc = ( price * ( lv_value + 12 ) ) / 100.
     ELSE.
-      disc = ( price * 10 ) / 100.
+      disc = ( price * 6 ) / 100.
     ENDIF.
     result = price - disc.
     DATA: l_record TYPE usr02.
