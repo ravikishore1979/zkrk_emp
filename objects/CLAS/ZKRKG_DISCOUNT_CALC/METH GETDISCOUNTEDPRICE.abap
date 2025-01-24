@@ -1,21 +1,21 @@
     METHOD getdiscountedprice.
     "WorkBench Demo Change Tes in S4 2022, activation commit test BADI disabled test impact analysis off
-    "task 1223 for jan_12 01 qa edited
+    "task 1223 for jan_24 01 qa edited12 with cherry-pick conflict
 
 "    DATA: lv_cross_ref TYPE z_num2.
     DATA disc TYPE i.
     IF ( warranty >= 10 ).
-      " fetch the details of number removed
+      " fetch the details of number 10 and 23 and 67
       DATA lv_value TYPE I.
       disc = ( price * 34 ) / 100.
-      lv_value = 25.
+      lv_value = 23.
       disc = ( price * ( lv_value + 10 ) ) / 100.
     ELSE.
-      disc = ( price * 11 ) / 100.
+      disc = ( price * 4 ) / 100.
     ENDIF.
     result = price - disc.
     DATA: l_record TYPE usr02.
     SELECT * INTO l_record FROM usr02 UP TO 2 ROWS.
     ENDSELECT.
-    "end method commnents qa edited Jan 12 03
+    "end method commnents. Jan 12 03
   ENDMETHOD.
