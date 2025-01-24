@@ -1,6 +1,6 @@
     METHOD getdiscountedprice.
     "WorkBench Demo Change Tes in S4 2022, activation commit test BADI disabled test impact analysis off
-    "task 1223 for jan_24 01 qa edited12 with cherry-pick conflict
+    "task 1223 for jan_24 01 qa edited12 with cherry-pick conflict abcdef
 
 "    DATA: lv_cross_ref TYPE z_num2.
     DATA disc TYPE i.
