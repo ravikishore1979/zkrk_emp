@@ -1,6 +1,6 @@
     METHOD getdiscountedprice.
     "WorkBench Demo Change Tes in S4 2022, activation commit test BADI disabled test impact analysis off
-    "fix for error fix  ges in dev
+    "fix test 3444
 
 "    DATA: lv_cross_ref TYPE z_num2.
     DATA disc TYPE i.
