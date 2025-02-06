@@ -4,6 +4,7 @@ class ZKRKG_DISCOUNT_CALC definition
   CREATE PUBLIC .
 
   PUBLIC SECTION.
+  "comment
     METHODS getdiscountedprice IMPORTING price TYPE i
                   warranty TYPE Integer
     RETURNING value(result) TYPE i.
