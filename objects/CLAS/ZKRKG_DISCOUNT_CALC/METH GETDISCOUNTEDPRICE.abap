@@ -1,5 +1,5 @@
     METHOD getdiscountedprice.
-    "WorkBench Demo Change Tes in S4 2022, activation commit test BADI disabled test impact analysis off
+    "WorkBench Demo Change Tes in S4 2022, activation commit test BADI disabled test impact conflict test
     "tr1 us1 test
     "tr2 us2
 
