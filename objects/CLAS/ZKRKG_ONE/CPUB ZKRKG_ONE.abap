@@ -4,3 +4,6 @@ CLASS zkrkg_one DEFINITION
   CREATE PUBLIC .
 
   PUBLIC SECTION.
+   METHODS executeWith IMPORTING price TYPE i
+                  warranty TYPE Integer
+    RETURNING value(result) TYPE i.
