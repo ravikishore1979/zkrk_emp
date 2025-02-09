@@ -1,4 +1,4 @@
   METHOD GETDISCOUNTEDPRICE.
-    "start method. Feb 7
+    "start method. 2025 Feb 09
     DATA disc TYPE i.
   ENDMETHOD.
