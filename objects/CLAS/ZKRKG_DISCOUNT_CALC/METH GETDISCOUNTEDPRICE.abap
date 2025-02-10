@@ -1,5 +1,5 @@
     METHOD getdiscountedprice.
-    "WorkBench Demo Change Tes in S4 2022, activation commit test BADI disabled promote with us
+    "WorkBench Demo Change Tes in S4 2022, activation commit test BADI disabled promote with us test again
     "group activate 1
 
 "    DATA: lv_cross_ref TYPE z_num2.
