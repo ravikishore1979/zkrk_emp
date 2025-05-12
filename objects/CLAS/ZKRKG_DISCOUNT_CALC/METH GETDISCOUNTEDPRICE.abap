@@ -1,6 +1,6 @@
     METHOD getdiscountedprice.
-    "WorkBench Demo Change Tes in S4 2022, activation commit test BADI disabled invalid tr sfsdfsdfsf
-    "group activate 1
+    "WorkBench Demo Change Test in S4 2022, activation commit test BADI disabled invalid tr sfsdfsdfsf
+    "gcts activate validate test
 
 "    DATA: lv_cross_ref TYPE z_num2.
     DATA disc TYPE i.
