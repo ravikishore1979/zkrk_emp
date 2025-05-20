@@ -6,12 +6,14 @@
 "Demo TR 2
     DATA disc TYPE i.
     DATA lv_val2 TYPE i.
+    lv_val2 = 10.
     IF ( warranty >= 10 ).
       " fetch the details of number 10 and 23 and 67
       DATA lv_value TYPE I.
       disc = ( price * 45 ) / 100.
       lv_value = 23.
       disc = ( price * ( lv_value + 12 ) ) / 100.
+      lv_val2 = disc.
     ELSE.
       disc = ( price * 11 ) / 100.
     ENDIF.
