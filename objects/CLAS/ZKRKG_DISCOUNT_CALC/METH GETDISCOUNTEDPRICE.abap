@@ -7,7 +7,7 @@
     IF ( warranty >= 10 ).
       " fetch the details of number 10 and 23 and 67
       DATA lv_value TYPE I.
-      disc = ( price * 44 ) / 100.
+      disc = ( price * 45 ) / 100.
       lv_value = 23.
       disc = ( price * ( lv_value + 12 ) ) / 100.
     ELSE.
