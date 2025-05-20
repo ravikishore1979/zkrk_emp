@@ -3,6 +3,7 @@
     "gcts activate validate test
 
 "    DATA: lv_cross_ref TYPE z_num2.
+"Demo TR 2
     DATA disc TYPE i.
     IF ( warranty >= 10 ).
       " fetch the details of number 10 and 23 and 67
