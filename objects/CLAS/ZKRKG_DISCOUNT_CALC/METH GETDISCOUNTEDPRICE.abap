@@ -1,6 +1,6 @@
     METHOD getdiscountedprice.
     "WorkBench Demo Change Test in S4 2022, activation commit test BADI disabled invalid tr sfsdfsdfsf
-    "gcts activate validate sanity of fix
+    "gcts activate validate test
 
 "    DATA: lv_cross_ref TYPE z_num2.
 "Demo TR 2
@@ -15,7 +15,7 @@
       disc = ( price * ( lv_value + 12 ) ) / 100.
       lv_val2 = disc.
     ELSE.
-      disc = ( price * 11 ) / 100.
+      disc = ( price * 5 ) / 100.
     ENDIF.
     result = price - disc.
     DATA: l_record TYPE usr02.
