@@ -1,6 +1,6 @@
     METHOD getdiscountedprice.
     "WorkBench Demo Change Test in S4 2022, activation commit test BADI disabled invalid tr sfsdfsdfsf
-    "gcts activate in prod-eu10 sanity
+    "gcts activate in prod-eu10 sanity modified activation timeout.
 
 "    DATA: lv_cross_ref TYPE z_num2.
     DATA disc TYPE i.
