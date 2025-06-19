@@ -1,6 +1,6 @@
     METHOD getdiscountedprice.
     "WorkBench Demo Change Test in S4 2022, activation commit test BADI disabled invalid tr sfsdfsdfsf
-    "gcts modified direcytly in qa post conflict with dev import
+    "gcts modified directly again edited
 
 "    DATA: lv_cross_ref TYPE z_num2.
     DATA disc TYPE i.
