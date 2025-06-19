@@ -1,10 +1,12 @@
     METHOD getdiscountedprice.
     "WorkBench Demo Change Test in S4 2022, activation commit test BADI disabled invalid tr sfsdfsdfsf
-    "gcts modified directly again edited
+    "gcts activate Edited in SAP GUI
 
 "    DATA: lv_cross_ref TYPE z_num2.
     DATA disc TYPE i.
-    IF ( warranty >= 8 ).
+    DATA lv_val2 TYPE i.
+    lv_val2 = 10.
+    IF ( warranty >= 3 ).
       " fetch the details of number 10 and 23 and 67
       DATA lv_value TYPE I.
       disc = ( price * 34 ) / 100.
