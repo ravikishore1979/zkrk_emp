@@ -1,6 +1,6 @@
     METHOD getdiscountedprice.
     "WorkBench Demo Change Test in S4 2022, activation commit test BADI disabled invalid tr sfsdfsdfsf
-    "gcts activation TR resp.
+    "gcts activation TR resp qa direct edit.
 
 "    DATA: lv_cross_ref TYPE z_num2.
     DATA disc TYPE i.
@@ -9,7 +9,7 @@
     IF ( warranty >= 3 ).
       " fetch the details of number 10 and 23 and 67
       DATA lv_value TYPE I.
-      disc = ( price * 34 ) / 100.
+      disc = ( price * 35 ) / 100.
       lv_value = 23.
       disc = ( price * ( lv_value + 12 ) ) / 100.
     ELSE.
