@@ -1,6 +1,6 @@
     METHOD getdiscountedprice.
     "WorkBench Demo Change Test in S4 2022, activation commit test BADI disabled invalid tr sfsdfsdfsf
-    "gcts conflict during cherry-pick push. resolved
+    "gcts conflict during cherry-pick test till prod via package.
 
 "    DATA: lv_cross_ref TYPE z_num2.
     DATA disc TYPE i.
